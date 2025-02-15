@@ -51,8 +51,9 @@ function updateCity(event) {
             </div>
             <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
           </div>
-          <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small></div>
+          <div class="time">${cityTime.format("h:mm")} <small>${cityTime.format("A")}</small></div>
         </div>
+        <a href="/">Go back</a>
     `}
 
 // Select a City 

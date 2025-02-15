@@ -98,12 +98,20 @@ footer {
     justify-content: space-evenly;
   }
 
+  h1 {
+    font-size: 24px;
+  }
+
   .time small {
     font-size: 16px;
   }
 
   .time,
   h2 {
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 12px;
   }
 }
